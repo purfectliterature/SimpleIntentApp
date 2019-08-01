@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/default_margin_horizontal"
+    android:paddingStart="@dimen/default_margin_horizontal"
+    android:paddingEnd="@dimen/default_margin_horizontal">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/move_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/move_activity"
+        app:cornerRadius="500dp"
+        android:elevation="10dp"
+        style="@style/Widget.MaterialComponents.Button"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/move_activity_with_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/move_activity_with_data"
+        app:cornerRadius="500dp"
+        android:elevation="10dp"
+        style="@style/Widget.MaterialComponents.Button"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dial_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dial_number"
+        app:cornerRadius="500dp"
+        android:elevation="10dp"
+        style="@style/Widget.MaterialComponents.Button"/>
+
+</LinearLayout>

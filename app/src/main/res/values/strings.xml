@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyIntentApp</string>
+    <string name="move_activity">Move activity</string>
+    <string name="this_is_moveActivity">This is MoveActivity.</string>
+    <string name="move_activity_with_data">Move activity with data</string>
+    <string name="dial_number">Dial number</string>
+</resources>
